@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		66114656223323260011AD70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66114655223323260011AD70 /* AppDelegate.swift */; };
-		66114658223323260011AD70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66114657223323260011AD70 /* ViewController.swift */; };
 		6611465B223323260011AD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66114659223323260011AD70 /* Main.storyboard */; };
 		6611465D223323280011AD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6611465C223323280011AD70 /* Assets.xcassets */; };
 		66114660223323280011AD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6611465E223323280011AD70 /* LaunchScreen.storyboard */; };
 		6611466B223323280011AD70 /* MarioKartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611466A223323280011AD70 /* MarioKartTests.swift */; };
 		66114676223323280011AD70 /* MarioKartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66114675223323280011AD70 /* MarioKartUITests.swift */; };
+		661146842233265C0011AD70 /* MarioKartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661146832233265C0011AD70 /* MarioKartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		66114652223323260011AD70 /* MarioKart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioKart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66114655223323260011AD70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66114657223323260011AD70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6611465A223323260011AD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6611465C223323280011AD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6611465F223323280011AD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		66114671223323280011AD70 /* MarioKartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioKartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66114675223323280011AD70 /* MarioKartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKartUITests.swift; sourceTree = "<group>"; };
 		66114677223323280011AD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661146832233265C0011AD70 /* MarioKartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				66114655223323260011AD70 /* AppDelegate.swift */,
-				66114657223323260011AD70 /* ViewController.swift */,
 				66114659223323260011AD70 /* Main.storyboard */,
+				661146832233265C0011AD70 /* MarioKartViewController.swift */,
 				6611465C223323280011AD70 /* Assets.xcassets */,
 				6611465E223323280011AD70 /* LaunchScreen.storyboard */,
 				66114661223323280011AD70 /* Info.plist */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66114658223323260011AD70 /* ViewController.swift in Sources */,
+				661146842233265C0011AD70 /* MarioKartViewController.swift in Sources */,
 				66114656223323260011AD70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4CWCQD2SD;
 				INFOPLIST_FILE = MarioKart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4CWCQD2SD;
 				INFOPLIST_FILE = MarioKart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
